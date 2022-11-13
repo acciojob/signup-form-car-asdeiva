@@ -8,6 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Signup Form Car</h1>
+	<div>
+	<form action="#" method="get" target="_blank">
+		<ol>
+			
+			<li><label for="name" >Name</label>
+				<input type="text"  name="name" id="name" placeholder="Your name.." required>
+			</li>
+			<li><label for="email" >Email</label>
+				<input type="text" name="email" id="email" placeholder="Your Email.." required>
+			</li>
+			<li><label for="gender" >Gender</label>
+				<input type="radio" id="gender" name="gender" value="male"  required> <label for="male">Male</label>
+				<input type="radio" id="gender" name="gender" value="female"  required> <label for="female">Female</label>
+			</li>
+			<li><label for="brand" id="brand">Car Brands</label>
+				<select name="brand" id="brand">
+					<option value="BMW">BMW</option>
+					<option value="Audi">Audi</option>
+					<option value="Mercedez">Mercedez</option>
+				</select>
+			</li>
+			<li>
+				<label for="age" >Age</label>
+				<input type="number" id="age"  placeholder="Your age.." required>
+			</li>
+			<li>
+				<label for="dob" >DOB</label>
+				<input type="date" id="dob" required>
+			</li>
+			<li>
+				<label for="password">Password</label>
+				<input type="password" placeholder="Your password.." id="password">
+			</li>
+			<input type="submit" id="submit">
+		</ol>
+		
+	</form>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
